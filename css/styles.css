@@ -2,8 +2,9 @@
   box-sizing: border-box;
 }
 .nav_bar {
-  background: rgb(94, 39, 9);
+  background: linear-gradient(90deg, rgb(94, 39, 9), rgb(160, 82, 20));
   padding: 1rem 2rem;
+  
 }
 .nav_bar ul {
   display: flex;
@@ -11,11 +12,15 @@
   list-style: none;
   margin: 0;
   padding: 0;
+
 }
-.nav_bar a {
+.nav_bar li a {
   color: white;
   text-decoration: none;
+  text-align: right;
+  font-size: 20px;
 }
+
 header {
   padding: 2rem;
 }
@@ -24,6 +29,10 @@ h1 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-align: center;
   font-size: 54px;
-  padding-top: 10px;
+  padding-top: 50px;
+  height: 200px;
+  width: 1200px;
+  background-image: none;
+
 
 }
