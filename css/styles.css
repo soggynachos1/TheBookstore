@@ -33,6 +33,15 @@ h1 {
   height: 200px;
   width: 1200px;
   background-image: none;
+}
+
+.title {
+  background-color: beige;
+}
 
 
+.description {
+  
+  text-align: center;
+  font-size: 30px;
 }
