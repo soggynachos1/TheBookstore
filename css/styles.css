@@ -1,25 +1,5 @@
 * {
   box-sizing: border-box;
-}
-.nav_bar {
-  background: linear-gradient(90deg, rgb(94, 39, 9), rgb(160, 82, 20));
-  padding: 1rem 2rem;
-  
-}
-.nav_bar ul {
-  display: flex;
-  gap: 1.5rem;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-
-}
-.nav_bar li a {
-  color: white;
-  text-decoration: none;
-  text-align: right;
-  font-size: 20px;
-}
 
 header {
   padding: 2rem;
@@ -38,6 +18,13 @@ h1 {
 .title {
   background-color: beige;
 }
+
+a, .header_logo {
+  font-size: 16px;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
 
 
 .description {
